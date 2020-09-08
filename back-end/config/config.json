@@ -1,0 +1,13 @@
+{
+    "development": {
+        "username": "GangbacOl",
+        "password": "asdf1145",
+        "database": "gamja",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "dialect": "mysql",
+        "dialectOptions": { "charset": "utf8mb4", "dateStrings": true, "typeCast": true },
+        "timezone": "+09:00",
+        "define": { "timestamps": true }
+    }
+}
