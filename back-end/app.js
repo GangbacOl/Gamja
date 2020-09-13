@@ -9,6 +9,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookiepParser());
 
+app.use('/auth', require('./routes/api/auth/index'));
+
 app.get('/test', (req, res) => {
     console.log('test success');
     res.status(200).json({ message: 'success' });
